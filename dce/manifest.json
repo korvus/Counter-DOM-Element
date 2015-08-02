@@ -1,0 +1,27 @@
+{
+  "name": "CDE",
+  "version": "1.0",
+  "description": "Counter Dom Element make an alert with number of DOM elements on a webpage. For trigger, keypress Alt + X.",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab","tabs","identity","*://*/*"
+  ],
+  "background": {
+    "scripts": ["count.js"],
+    "persistent": false
+  },
+  "commands": {
+    "calculate-DOM": {
+      "suggested_key": {
+        "default": "Alt+X",
+        "mac": "Alt+X"
+      },
+      "description": "Just display the number of DOM elements."
+    }
+  },
+  "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon.png" 
+  }
+}
