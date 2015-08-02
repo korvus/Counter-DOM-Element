@@ -1,7 +1,7 @@
 {
   "name": "CDE",
   "version": "1.0",
-  "description": "Counter Dom Element make an alert with number of DOM elements on a webpage. For trigger, keypress Alt + X.",
+  "description": "Alt + X (default) for alert how many DOM node element there is on a webpage.",
   "manifest_version": 2,
   "permissions": [
     "activeTab","tabs","identity","*://*/*"
