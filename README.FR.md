@@ -3,10 +3,13 @@ Lance juste une popup "alert" où s'affiche le nombre d'éléments node d'une pa
 
 # Comment l'utiliser ?
 
-* Télécharger [le fichier avec l'extension .crx](https://github.com/korvus/Counter-DOM-Element/blob/master/dce.crx).
+* Télécharger [le zip](https://github.com/korvus/Counter-DOM-Element/archive/master.zip).
 * Lancez Chrome
 * Allez sur la page [chrome://extensions/](chrome://extensions/)
-* Glissez-déposer le fichier sur cette page.
+* Cochez _Mode développeur_
+* Cliquez sur _Charger l'extension non empaquetée_ et choisissez le dossier _dce_ que vous venez de télécharger.
+* Activée là, si ce n'est déjà fait
+* C'est bon !
 
 Et... c'est tout !
 

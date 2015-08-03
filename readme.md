@@ -3,10 +3,13 @@ Just launch an alert popup displaying the number of DOM node of any webpage (Alt
 
 # How-to
 For use it:
-* Download [the file with .crx extension](https://github.com/korvus/Counter-DOM-Element/blob/master/dce.crx).
+* Download [the depository](https://github.com/korvus/Counter-DOM-Element/archive/master.zip).
 * Launch Chrome.
 * Go to [chrome://extensions/](chrome://extensions/)
-* Drag n' drop the crx file on it.
+* Check _Developer mode_ (top right)
+* Click _load unpacked extension_ and choose the dce folder you just download.
+* Activate it
+* It's functional!
 
 And it's done!
 
