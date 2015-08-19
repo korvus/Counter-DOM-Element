@@ -27,4 +27,11 @@ window.onload = function() {
     }
 
 
+    document.getElementById("countRules").onclick = function(){
+      chrome.tabs.executeScript(null,
+        {file:"actions/countRules.js"}
+      );
+    }
+
+
 }
