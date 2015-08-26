@@ -19,6 +19,12 @@ window.onload = function() {
         {file:"actions/countSpacer.js"}
       );
     }
+    
+    document.getElementById("hiddenElts").onclick = function(){
+      chrome.tabs.executeScript(null,
+        {file:"actions/checkHidden.js"}
+      );
+    }
 
     document.getElementById("uselessDOMnodes").onclick = function(){
       chrome.tabs.executeScript(null,
